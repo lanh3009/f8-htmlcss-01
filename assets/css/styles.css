@@ -57,7 +57,7 @@ a {
     flex-direction: column;
     background-color: #e6f0ff;
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 .nav-bar {
     display: flex;
@@ -384,7 +384,7 @@ a {
 }
 .stats .stats-trend {
     position: absolute;
-    top: 0;
+    top: 0; minhthuyeulananh
     left: 0;
     width: 239px;
     border-radius: 0px 0px 12px 12px;
