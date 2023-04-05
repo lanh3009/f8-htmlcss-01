@@ -4,6 +4,10 @@
 html {
     font-size: 62.5%;
 }
+html,
+body {
+    scroll-behavior: smooth;
+}
 :root {
     --primary-color: #0f1b4c;
 }
@@ -384,7 +388,7 @@ a {
 }
 .stats .stats-trend {
     position: absolute;
-    top: 0; minhthuyeulananh
+    top: 0;
     left: 0;
     width: 239px;
     border-radius: 0px 0px 12px 12px;
